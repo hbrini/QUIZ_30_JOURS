@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8" />
-<title>Quiz Interactif Excel – Série 30 jours</title>
+<title>Défi Excel : Maîtrisez les 30 Jours en Quiz !</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   body {
@@ -28,7 +28,8 @@
   }
   .logo-box {
     position: absolute;
-    top: 18px; left: 18px;
+    top: 5px; /* remonté de 13px par rapport à avant */
+    left: 18px;
     width: 84px; height: 84px;
     display: flex;
     align-items: flex-start;
@@ -39,9 +40,9 @@
     width: 80px;
     height: 80px;
     border-radius: 14px;
-    box-shadow: 0 2px 12px #b8c8e255;
+    box-shadow: 0 2px 12px rgba(184,200,226,0.33);
     object-fit: contain;
-    background: #fff;
+    background: transparent; /* fond transparent */
   }
   .spacer-logo { height: 54px; }
   
@@ -231,7 +232,7 @@
       margin-bottom: 50px;
     }
     .logo-box {
-      top: 3px;
+      top: 3px; /* responsive ajusté légèrement */
       left: 7px;
       width: 48px;
       height: 48px;
@@ -253,7 +254,7 @@
   </div>
   <div class="spacer-logo"></div>
   <div class="quiz-header">
-    <h1 class="quiz-title" id="quizTitle">Quiz Interactif Excel – Série 30 jours</h1>
+    <h1 class="quiz-title" id="quizTitle">🎯 Défi Excel : Maîtrisez les 30 Jours en Quiz ! 🎉</h1>
     <div class="quiz-steps" aria-hidden="true" id="quizSteps">
       <span class="emoji-flag" aria-label="Départ">🚩</span>
       <span class="dot"></span>
